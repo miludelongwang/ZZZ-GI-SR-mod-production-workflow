@@ -224,6 +224,8 @@ def batch_crop_images(input_folder):
                 
                 # 保留元数据（兼容处理）
                 exif = img.info.get('exif', b'')
+                if cropped.mode in ('P', 'RGBA'):
+                    cropped = cropped.convert('RGB')
                 cropped.save(temp_path, exif=exif, **save_args)
                 
                 # 覆盖原始文件
