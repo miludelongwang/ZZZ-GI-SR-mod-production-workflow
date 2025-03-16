@@ -28,5 +28,50 @@
 1. 运行cut.py选择ddsImages文件夹将里面的图片批量裁剪成目标比例
 2. 运行RRNTDDSINI.py文件，弹窗填入IB值，运行最终得的ddsOutput文件夹就是覆盖原贴图的mod
 3. 一键清空.py用来清空弹窗选择的文件夹
+***
 
 ***
+# 动态贴图生成
+## 作用
+1. **out**存放帧生成的图片，运行视频帧生成图片.exe时自动生成，以下脚本都是对里面的图片批量操作
+2. **background.png**背景图片，如相框
+3. **cut.py**批量裁剪图片
+4. **input.mp4**帧生成所需要的视频
+5. **rename.py**批量重命名为000.png序列图片
+6. **resizing.py**批量调整图片尺寸
+7. **rotateimages.py**批量翻转图片
+8. **separatelyMerge.py**将图片加上背景图片
+9. **stitching.py**将图片按行列拼接在一起生成stitchingResult.jpg
+10. **stitchingResult.jpg**按行列拼接生成的图片
+11. **视频帧生成图片.exe**点击打开，将input.mp4拖入窗口运行帧生成图片存放在out内
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
